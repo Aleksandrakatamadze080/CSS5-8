@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: inter;
+    background: #141414;
+  }
+  
+  .mainDiv {
+    display: flex;
+  }
+  
+  .navContainer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border-right: 1px solid #434343;
+    background: #222224;
+    gap: 32px;
+    max-width: 224px;
+    width: 100%;
+    padding: 16px 16px 0 16px;
+  }
+  
+  .company {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 24px;
+    width: 100%;
+    border-bottom: 1px solid #434343;
+  }
+  
+  .companyP {
+    color: #989898;
+    font-size: 14px;
+  }
+  
+  .listDiv {
+    display: flex;
+    gap: 8px;
+    border-radius: 12px;
+    background: #fae101;
+    padding: 8px 16px;
+    color: black;
+    font-size: 16px;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .noBackground {
+    background: none;
+    border: none;
+    color: #fff;
+  }
+  
+  .mainContainer {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background: #141414;
+    width: 100%;
+  }
+  
+  header {
+    display: flex;
+    width: 100%;
+    padding: 16px 16px 0 0;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-end;
+    border-bottom: 1px solid #434343;
+  
+    margin-bottom: 32px;
+  }
+  
+  .headerDiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 834px;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .formDiv {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    max-width: 436px;
+    
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  .search {
+    border-radius: 8px 0px 0px 8px;
+    border-top: 1px solid #fae101;
+    border-bottom: 1px solid #fae101;
+    border-left: 1px solid #fae101;
+    background: none;
+    padding: 8px 10px;
+    width: 100%;
+  }
+  
+  .search::placeholder {
+    color: #fae101;
+    font-size: 14px;
+  }
+  
+  .searchImg {
+    padding: 5px 7px;
+    border-radius: 0px 8px 8px 0px;
+    background: #fae101;
+  }
+  
+  .nameDiv {
+    display: flex;
+    gap: 12px;
+    color: #fff;
+    font-size: 16px;
+    align-items: center;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    max-width: 1088px;
+    width: 100%;
+    gap: 32px;
+    margin-bottom: 32px;
+  }
+  
+  .headingContainer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 19px 0 19px 40px;
+    border-radius: 16px;
+    background: #222224;
+    width: 100%;
+  }
+  
+  .headingInside {
+    display: flex;
+    justify-content: space-between;
+    max-width: 878px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .headingDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 40px;
+    color: #b7b7b7;
+    font-size: 16px;
+    max-width: 340px;
+    width: 100%;
+  }
+  
+  h1 {
+    color: #fae101;
+    font-size: 48px;
+  }
+  
+  h2 {
+    width: 247px;
+    font-size: 40px;
+    color: #fff;
+  }
+  
+  span {
+    color: #b7b7b7;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .allcardsDiv {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    padding: 8px 16px 8px 12px;
+    border-radius: 24px;
+    background: #222224;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .yellowCard {
+    background: #fae101;
+    color: #141414;
+  }
+  
+  .flashSalesDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  
+  .flashSales {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .sale {
+    display: flex;
+    gap: 16px;
+    color: #fae101;
+    font-size: 16px;
+    align-items: center;
+  }
+  
+  .ending {
+    display: flex;
+    gap: 12px;
+    color: #797979;
+    align-items: center;
+  }
+  
+  .dateDiv {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+  
+  .date {
+    padding: 10px;
+    border-radius: 4px;
+    background: #fae101;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  
+  .grinchCardsDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .grinchCard {
+    display: flex;
+    gap: 12px;
+    max-width: 352px;
+    width: 100%;
+    padding: 16px;
+    align-items: flex-start;
+    border-radius: 12px;
+    border: 1px solid #fae101;
+    background: #222224;
+  }
+  
+  .stolenChristmas {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+  
+  .grinchCardText {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: #797979;
+    font-size: 14px;
+    align-items: flex-start;
+  }
+  
+  .grinchCardHead {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  
+  .price {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .yellowPrice {
+    color: #fae101;
+  }
+  
+  .addToCart {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    background: #fae101;
+  }
+  
+  .allThemesDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .themesHead {
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .theme {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 254px;
+    width: 100%;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #fae101;
+  }
